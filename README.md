@@ -24,17 +24,17 @@ The goal is to **optimize execution** and demonstrate **speedup** across CPU and
 - **Speedup visualization** – Python script generates a bar chart comparing methods.
 
 ## Build Instructions
-mkdir -p build
-cd build
-cmake ..
+mkdir -p build <br>
+cd build <br>
+cmake .. <br>
 
-make -j
+make -j <br>
 
 python3 plot_results.py results.csv
 
 ## Run all with scripts
-chmod +x run.sh
-./run.sh
+chmod +x run.sh <br>
+./run.sh 
 
 
 
